@@ -1,0 +1,206 @@
+*{ 
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+/* tulisan Dapur Digital */
+.navbar-brand{ 
+    font-size : 2rem;
+    color:rgb(41, 90, 33);
+    font-family: "DynaPuff", serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.hamburger-icon{
+    width: 30px;
+    height: 30px;
+}
+/* FITUR */
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black;
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+/* Bagan Search */
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: "Merriweather", serif;
+    border: 2px solid rgba(27, 44, 24, 0.747);
+}
+/* button pencarian */
+.btn0{
+    height:40px;
+    width: 40%;
+    outline:none;
+    border: none;
+    font-family: "Merriweather", serif;
+    background: rgba(34, 57, 45, 0.747);
+    color : white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn0:hover{
+    background-color: goldenrod;
+}
+/* background HOME PAGE BROK */
+.main{
+    background-image: url('images/bghome.jpeg');
+    background-size: cover;
+    height: 90vh;
+    background-position: 10% 10;
+    width: 100%;
+}
+/* TULISAN DI HOMEPAGE */
+.main h1{
+    color: #365c47;
+    text-shadow: 2px 2px 4px white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.outlined-text{
+    color: brown;
+    text-shadow: -1px -1px 2px white,1px -1px 2px black;
+}
+/* STYLE LOGO BRO */
+.img-luid{
+    width: 150px;
+    height: auto;
+}
+.custom-img {
+    width: 100px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* GAMBAR DAN RESEP */
+.img-resep{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+   width: 250px;
+}
+.img-resep{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* BUTTON MY RECIPE supaya ditengah */
+.col-lg-6 {
+    text-align: center;
+}
+/* Gaya untuk bagian komunitas */
+.news {
+    background-color: rgb(96, 75, 37);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+/* Input email */
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: whitesmoke;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/* Placeholder input */
+.news input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.news .form-control {
+    height: 50px; 
+    border-radius: 50px;
+}
+
+/* Paragraf dalam news */
+.news p {
+    margin: 0;
+}
+
+/* Ikon media sosial */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+    opacity: 0.2;
+}
+
+/* Ukuran font untuk ikon */
+.icon-large {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.main {
+    position: relative;
+}
+
+.btn1 {
+    position: absolute;
+    bottom: -50px; /* Geser ke bawah */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn1 {
+    display: block;
+    width: fit-content; /* Sesuaikan lebar tombol */
+    margin: 20px auto; /* Tambahkan jarak dari atas */
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: #365c47;
+    transition: all 0.3s ease-in-out;
+    position: relative; /* Pastikan tombol tetap di dalam layout */
+    z-index: 10; /* Pastikan tombol tidak tertutupi */
+}
+
+.btn-submit,
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: #365c47;
+    transition: all 0.3s ease-in-out;
+}
+.btn1:hover,
+.btn-submit:hover,
+.btn2:hover {
+    background-color: goldenrod;
+}
