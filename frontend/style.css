@@ -1,0 +1,194 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(41, 90, 33);
+    font-family: "Poppins", serif;
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: black;
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Main Section */
+.main {
+    background-image: url('images/bghome.jpeg');
+    background-size: cover;
+    background-position: 10% 10%;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.main h1 {
+    color: #365c47;
+    text-shadow: 2px 2px 4px white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.outlined-text {
+    color: brown;
+    text-shadow: -1px -1px 2px white, 1px -1px 2px black;
+}
+
+/* Gambar Logo */
+.img-luid {
+    width: 150px;
+    height: auto;
+}
+
+.custom-img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Resep Section */
+.img-resep {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img-resep-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 250px;
+}
+
+.col-lg-6 {
+    text-align: center;
+}
+
+/* Global Button Style */
+button,
+.btn,
+.btn0,
+.btn1,
+.btn-submit,
+.btn2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: burlywood;
+    color: #365c47;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover,
+.btn:hover,
+.btn0:hover,
+.btn1:hover,
+.btn-submit:hover,
+.btn2:hover {
+    background-color: goldenrod !important;
+    color: white !important;
+}
+
+/* Komunitas / News Section */
+.news {
+    background-color: rgb(96, 75, 37);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: whitesmoke;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news input::placeholder {
+    color: black;
+}
+
+.news .form-control {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.news p {
+    margin: 0;
+}
+
+/* Sosial Media */
+.input-group {
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+    max-width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group input.form-control {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-style: normal; /* Hapus kemiringan */
+    font-family: "Merriweather", serif;
+    flex: 1;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.input-group .btn-submit {
+    padding: 10px 20px;
+    border-radius: 0;
+    background-color: burlywood;
+    color: #365c47;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-group .btn-submit:hover {
+    background-color: goldenrod;
+    color: white;
+}

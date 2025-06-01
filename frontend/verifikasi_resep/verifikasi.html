@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YheBeatles - Verifikasi Resep Baru</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+  <title>TheBeatles - Admin</title>
+</head>
+<body class="bg-[#e8f0e8] min-h-screen flex items-center justify-center p-6">
+
+  <div class="w-full max-w-xl bg-white rounded-xl shadow-lg p-8 border border-green-200">
+    <h1 class="text-2xl font-bold text-center text-green-800 mb-6">Verifikasi Resep Baru</h1>
+
+    <div class="flex items-center justify-between bg-white shadow-md rounded-xl p-4">
+      <!-- Kiri: Teks -->
+      <div class="flex-1">
+        <p class="text-lg font-semibold text-gray-900">Farin Armeda menambahkan<br />resep baru</p>
+        <div class="mt-3 flex gap-3 text-xl">
+            <a href="/dd_FE/adminPage/admin.html" title="Setujui">
+                 <button class="text-blue-600 hover:scale-110 transition">&#10003;</button>
+            </a>
+            <a href="/dd_FE/adminPage/admin.html" title="Tolak">
+                <button class="text-red-600 hover:scale-110 transition">&#10007;</button>
+            </a>
+        </div>
+      </div>
+      <!--Gambar -->
+      <div class="w-24 h-24 rounded-lg overflow-hidden ml-4 flex-shrink-0">
+        <img src="/dd_FE/images/veriffood.jpg" alt="Makanan" class="w-full h-full object-cover" />
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

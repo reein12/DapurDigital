@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TheBeatles - Admin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[#EAE1D3] min-h-screen p-4 font-['Poppins']">
+
+  <div class="bg-white rounded-2xl overflow-hidden shadow-xl grid grid-cols-1 md:grid-cols-2">
+    
+    <!-- Kolom Kiri: Gambar -->
+    <div class="relative">
+      <img src="/dd_FE/images/bgAdmin.jpg" alt="Food Display"
+           class="w-full h-[90vh] object-cover object-[20%_10%]" />
+      <div class="absolute bottom-6 left-6 text-white">
+        <h1 class="text-3xl font-bold leading-tight">Selamat Datang<br />Admin</h1>
+        <p class="text-sm">Mari pantau resep kita</p>
+      </div>
+    </div>
+
+    <!-- Kolom Kanan: Konten -->
+    <div class="bg-[#F6F9F4] p-8 flex flex-col justify-center">
+      <h2 class="text-3xl font-bold text-green-800 mb-6">Dapur Digital</h2>
+
+      <div class="space-y-6 border border-green-300 rounded-xl p-4 bg-[#f6f9f4]">
+        
+        <!-- Verifikasi Resep -->
+        <div>
+          <h3 class="font-semibold">Lihat Daftar Verifikasi Resep</h3>
+          <a href="/dd_FE/verifikasi_resep/verifikasi.html">
+                 <button class="mt-2 bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">Verifikasi</button>
+            </a>
+        </div>
+
+        <!-- Tambah Resep -->
+        <div class="border-t border-green-300 pt-4">
+          <h3 class="font-semibold">Tambah Resep</h3>
+          <a href="http://localhost/thebeatles/dd_FE/tambah_resep/tambah_resep.php">
+            <button class="mt-2 bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">Tambah Resep</button>
+          </a>
+        </div>
+
+        <!-- Lihat Resep -->
+        <div class="border-t border-green-300 pt-4">
+          <h3 class="font-semibold">Lihat Daftar Resep Tersedia</h3>
+          <div class="mt-2 flex gap-2 flex-wrap">
+          <a href="http://localhost/dd_FE/meals.php">
+            <button class="bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600">Meals</button>
+          </a>
+          <a href="http://localhost/dd_FE/snack.php">
+           <button class="bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600">Snack</button>
+          </a>
+          <a href="http://localhost/dd_FE/drink.php">
+           <button class="bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600">Drink</button>
+          </a>
+          <a href="http://localhost/dd_FE/dessert.php">
+           <button class="bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600">Dessert</button>
+          </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
